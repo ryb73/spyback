@@ -1,0 +1,22 @@
+{
+  "name": "spyback",
+  "version": "1.0.0",
+  "description": "Spy on Javascript functions by registering callbacks to be fired before or after each invocation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryb73/spyback.git"
+  },
+  "author": "Ryan Biwer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryb73/spyback/issues"
+  },
+  "homepage": "https://github.com/ryb73/spyback#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
