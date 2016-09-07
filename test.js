@@ -43,4 +43,9 @@ describe("spyback", function() {
         myObj.func = spyback(myObj.func, null, after);
         myObj.func(...args);
     });
+
+    it("passes on return value", function() {
+        let func = spyback(() => 123);
+        assert.equal(func(), 123);
+    });
 });

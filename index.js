@@ -5,6 +5,7 @@ function spyback(func, before, after) {
         if(before) before(args);
         let result = func.apply(this, args);
         if(after) after(args, result);
+        return result;
     };
 }
 
