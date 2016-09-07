@@ -1,6 +1,6 @@
 {
   "name": "spyback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spy on Javascript functions by registering callbacks to be fired before or after each invocation.",
   "main": "index.js",
   "scripts": {
